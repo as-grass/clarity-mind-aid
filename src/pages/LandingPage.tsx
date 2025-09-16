@@ -16,9 +16,9 @@ const LandingPage = ({ onStartEvaluation }: LandingPageProps) => {
           <Badge variant="secondary" className="bg-medical-green-light text-medical-green px-4 py-2">
             IA para Salud Mental
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
             Predicción Inteligente de
-            <span className="bg-medical-gradient bg-clip-text text-transparent block">
+            <span className="bg-medical-gradient bg-clip-text text-transparent block leading-tight py-1">
               Riesgo Suicida
             </span>
           </h1>
